@@ -2,10 +2,13 @@ Follow these steps to create your own training repository:
 
 $ mkdir git-training
 $ cd git-training
-git init
+$ git init
 
 Create a readme file for the project, and add it to git
 
 $ vim README
 $ git commit -a -m "started describing setup process"  # this could be done into 2 steps
+$ git log  
+$ gitk &  # the ampersand creates a separate process
+
 
