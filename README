@@ -11,4 +11,12 @@ $ git commit -a -m "started describing setup process"  # this could be done into
 $ git log  
 $ gitk &  # the ampersand creates a separate process
 
+We're working in the dev branch, which was created and switched to like so:
+$ git branch  # lists branchs
+$ git branch dev  # creates a 'dev' branch
+$ git checkout dev   # switches to this branch
+$ vim README
+
+And remember to commit your changes:
+$ git commit -a -m 'added instructions for creating and switching branches'
 
