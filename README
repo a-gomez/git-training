@@ -20,3 +20,13 @@ $ vim README
 And remember to commit your changes:
 $ git commit -a -m 'added instructions for creating and switching branches'
 
+Now it's time to add a file we don't want publicly available online:
+$ vim auth.yml  # username and password go in this file
+$ vim .gitignore  # add the following lines to this file:
+  # ignore authorization files
+  *.yml
+$ git status
+
+And, as usual, remember to add and commit:
+$ git commit -a -m 'created .gitignore file for auth files'
+
