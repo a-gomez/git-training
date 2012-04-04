@@ -4,6 +4,10 @@ $ mkdir git-training
 $ cd git-training
 $ git init
 
+These commands can (and probably should) be used frequently 
+$ git status  # keep track of what has changed
+$ git diff  # keep track of how it has changed
+
 Create a readme file for the project, and add it to git
 
 $ vim README
@@ -29,4 +33,5 @@ $ git status
 
 And, as usual, remember to add and commit:
 $ git commit -a -m 'created .gitignore file for auth files'
+
 
