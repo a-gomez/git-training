@@ -34,4 +34,6 @@ $ git status
 And, as usual, remember to add and commit:
 $ git commit -a -m 'created .gitignore file for auth files'
 
-
+Let's assume we've got a good chunk of stuff working now, and we want to merge back to the master:
+$ git checkout master
+$ git merge dev
